@@ -1,4 +1,5 @@
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/peternguyew)
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/peternguyentr?country.x=DE&locale.x=en_US)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e6495428bbd41f0807e4239c42403eb)](https://www.codacy.com/manual/PeterNgTr/codeceptjs-rphelper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PeterNgTr/codeceptjs-rphelper&amp;utm_campaign=Badge_Grade)
 [![GitHub tag](https://img.shields.io/github/tag/kobenguyent/codeceptjs-rphelper?include_prereleases=&sort=semver&color=blue)](https://github.com/kobenguyent/codeceptjs-rphelper/releases/)
