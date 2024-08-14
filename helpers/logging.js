@@ -2,7 +2,14 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = function logToFile(message) {
-	const logFilePath = path.join(output_dir, 'codeceptjs-reportportal.log');
+	const logsDirPath = path.resolve(output_dir, 'logs');
+
+	const logFilePath = path.join(logsDirPath, 'codeceptjs-reportportal.log');
+
+	if (!fs.existsSync(logsDirPath)) {
+		fs.mkdirSync(logsDirPath, { recursive: true });
+	}
+
 	const timestamp = new Date().toISOString();
 	const logMessage = `[${timestamp}] ${message}\n`;
 
