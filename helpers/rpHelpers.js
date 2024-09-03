@@ -18,6 +18,10 @@ async function startLaunch(config, suiteTitle) {
 			endpoint: config.endpoint,
 			project: config.projectName,
 			debug: config.debug,
+			restClientConfig: {
+				maxBodyLength: 104857600, //100mb
+				maxContentLength: 104857600, //100mb
+			}
 		});
 
 		logToFile(`Creating new RP Client: ${JSON.stringify(rpClient, null, 2)}`);
