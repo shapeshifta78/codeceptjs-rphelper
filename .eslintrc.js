@@ -26,6 +26,6 @@ module.exports = {
     "no-undef": [0],
     "no-await-in-loop": [0],
     "max-len": [0],
-    "camelcase": false
+    "camelcase": [0]
   },
 };

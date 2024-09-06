@@ -21,6 +21,7 @@ async function startLaunch(config, suiteTitle) {
 			restClientConfig: {
 				maxBodyLength: 104857600, //100mb
 				maxContentLength: 104857600, //100mb
+				timeout: 60000, //60s
 			}
 		});
 
