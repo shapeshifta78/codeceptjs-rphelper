@@ -19,8 +19,8 @@ async function startLaunch(config, suiteTitle) {
 			project: config.projectName,
 			debug: config.debug,
 			restClientConfig: {
-				maxBodyLength: 104857600, //100mb
-				maxContentLength: 104857600, //100mb
+				maxBodyLength: Infinity, //100mb
+				maxContentLength: Infinity, //100mb
 				timeout: 60000, //60s
 			}
 		});
